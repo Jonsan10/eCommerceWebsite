@@ -13,9 +13,12 @@ html {
 
 nav {
     box-sizing: border-box;
-    background-color: #bf7631;
-    width: 250px;
     height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     
 
 }
@@ -23,4 +26,14 @@ nav {
 .header-img {
     width: 100%;
 
+}
+
+.searchbar-img {
+    width: 50%;
+}
+
+.footer {
+    box-sizing: border-box;
+    height: 100px;
+    background-color: #BF7631;
 }
