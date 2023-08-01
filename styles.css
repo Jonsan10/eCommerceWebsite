@@ -11,14 +11,25 @@ html {
     font-size: 62.5;
 }
 
-nav {
-    box-sizing: border-box;
-    height: 100px;
+.upper-header {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    justify-content: flex-start;
     align-items: center;
+
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+
+    
+    
     
 
 }
@@ -30,6 +41,19 @@ nav {
 
 .searchbar-img {
     width: 50%;
+}
+
+.proudcts-info {
+    box-sizing: border-box;
+    display: flex;
+    padding-bottom: 100px;
+    text-decoration: underline;
+
+}
+
+.h2 {
+    box-sizing: content-box;
+    text-decoration: underline;
 }
 
 .footer {
