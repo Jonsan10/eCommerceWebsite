@@ -27,6 +27,16 @@ body {
 
 }
 
+.header_content {
+    border-bottom: 3px solid black;
+    height: 60%;
+    width: 1800px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .navbar a {
     margin-right: 45px;
 }
@@ -36,6 +46,13 @@ body {
     align-items: left;
 
 }
+
+.header_logo img {
+    width: 40px;
+    height: 30px;
+
+}
+
 .logo_container {
     font-size: 25px;
     font-weight: 500;
@@ -43,6 +60,17 @@ body {
 
 .search_bar {
     width: 100px;
+}
+
+.search_bar img {
+    width: 20px;
+    height: 15px;
+
+}
+
+.header_img {
+    width: 1170px;
+    height: 475px;
 }
 
 .proudcts-info {
