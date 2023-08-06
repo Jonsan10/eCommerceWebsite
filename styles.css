@@ -15,6 +15,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*header css */
 
 .upper-header {
     display: flex;
@@ -73,6 +74,19 @@ body {
     height: 475px;
 }
 
+/* about us css*/
+
+.about_us {
+    display: flex;
+}
+
+.about_us_top_text {
+    display: flex;
+    align-content: center;
+}
+
+
+/* products css */
 .proudcts-info {
     box-sizing: border-box;
     display: flex;
