@@ -15,6 +15,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    border-bottom: 3px solid black;
+    padding-left: 40px;
+    align-items: baseline;
+}
+
 /*header css */
 
 .upper-header {
@@ -60,7 +66,8 @@ body {
 }
 
 .search_bar {
-    width: 100px;
+    width: 200px;
+    align-self: self-end;
 }
 
 .search_bar img {
@@ -72,17 +79,31 @@ body {
 .header_img {
     width: 1170px;
     height: 475px;
+    padding-top: 25px;
 }
 
 /* about us css*/
 
 .about_us {
-    display: flex;
+    border-bottom: 4px solid black;
+    height: 60%;
+    width: 700px;
 }
 
-.about_us_top_text {
+.about_us_top_text p {
     display: flex;
     align-content: center;
+    padding-top: 25px;
+
+}
+.about_us_left_img {
+    width: 300px;
+    height: 350px;
+}
+.about_us_right_img {
+    width: 200px;
+    height: 200px;
+    position: relative;
 }
 
 
