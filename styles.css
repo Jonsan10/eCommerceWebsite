@@ -110,26 +110,58 @@ h1 {
 
 
 
-.about_us_middle_text p{
+.about_us_middle_text {
+    width: 439px;
     font-size: 20px;
-    padding-right: 100px;
+    font-weight: 200;
+}
+.about_us_middle_text p {
+    margin-bottom: 100px;
 }
 
 
 /* products css */
-.proudcts-info {
-    box-sizing: border-box;
+
+
+.flex_container {
     display: flex;
-    padding-bottom: 100px;
-    text-decoration: underline;
-
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    
 }
 
 
-.h2 {
-    box-sizing: content-box;
-    text-decoration: underline;
+.products_info {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
+
+
+.products_info img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.products_info h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+.products_info p {
+    font-size: 1rem;
+    color: black;
+}
+
+/*Contact info */
+
+
 
 .footer {
     box-sizing: border-box;
