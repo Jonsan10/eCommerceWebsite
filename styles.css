@@ -161,6 +161,15 @@ h1 {
 
 /*Contact info */
 
+.email_box {
+    width: 300px;
+}
+.email_box p {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
 
 
 .footer {
