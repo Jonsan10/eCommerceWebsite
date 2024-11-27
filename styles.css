@@ -129,10 +129,15 @@ h1 {
 
 
 .flex_container {
-    
-    max-width: 1200px; 
+    width: 100%;
+    max-width: 500px; 
     margin: 0 auto;
+    height: auto;
     
+}
+.products_list{
+    height: auto;
+    width: 100px;
 }
 
 
