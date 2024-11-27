@@ -13,6 +13,13 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+     width: 1920px;
+     height: 1080px;
+     margin: 0;
+     padding: 0;
+    /* overflow: hidden;  Prevents scrolling if content exceeds 1920x1080 */
+    
 }
 
 h1 {
@@ -36,8 +43,8 @@ h1 {
 
 .header_content {
     border-bottom: 3px solid black;
-    height: 60%;
-    width: 1800px;
+    height: 100%;
+    width: 1920px;
     padding-left: 40px;
     display: flex;
     align-items: center;
