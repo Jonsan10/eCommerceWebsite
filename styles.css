@@ -194,7 +194,10 @@ form {
     border: 2px groove;
 }
 
-
+label {
+    display: block;
+    align-items: center;
+}
 
 
 /* Footer css */
