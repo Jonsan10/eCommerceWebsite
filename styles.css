@@ -115,9 +115,11 @@ h1 {
     box-sizing: content-box;
 
 }
-.about_us_left_img {
-    width: 397px;
-    height: 535px;
+.about_us_left_img img {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    padding-top: px;
 }
 
 
@@ -130,6 +132,7 @@ h1 {
 .about_us_middle_text p {
     margin-bottom: 100px;
     padding: 10px;
+    align-content: center;
 }
 
 
