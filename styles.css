@@ -222,43 +222,16 @@ textarea{
 /* Footer css */
 .footer {
     width: 100%;
-    margin-top: 158px;
-    font-size: 20px;
     font-weight: 200;
-    height: 200px;
     background-color: #BF7631;
 }
 
-.footer_left {
-    display: flex;
-    align-items: center;
-
+footer p{
+    display: inline;
+    text-align: center;
 }
 
-.footer_left img {
-    width: 74px;
-    height: 74px;
-    margin: 10px;
-}
-
-.footer_middle{
-    align-self: center;
-}
-
-.footer_middle img {
-    width: 100px;
-}
-
-.footer_right {
-    width: 100px;
-    height: 100px;
-}
-
-.footer_right img {
-    width: 100px;
-}
-
-.footer_bottom {
-    display: flex;
-    align-items: end;
+footer img{
+    display: inline;
+    
 }
