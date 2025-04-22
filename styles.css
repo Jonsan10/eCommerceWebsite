@@ -193,45 +193,70 @@ h1 {
 
 
 /*Contact info */
-form {
-    display: block;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-top: 0.35em;
-    padding-bottom: 0.625em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    border: 2px groove;
-}
 
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 8px;
+  }
 label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 10vh;
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
 }
 
-textarea{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
 }
+input[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
 
 /* Footer css */
+
 .footer {
     width: 100%;
     font-weight: 200;
     background-color: #BF7631;
-}
-
-footer p{
-    display: inline;
-    text-align: center;
-}
-
-footer img{
-    display: inline;
+    font-weight: bold;
+    height: 0 auto;
     
-}
+  }
+.footer-text{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+  }
+  
+  .footer-icons{
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .footer img{
+    width: 32px;
+    height: 32px;
+  }

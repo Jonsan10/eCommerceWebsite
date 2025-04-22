@@ -99,7 +99,7 @@
 
       <section id="our_products">
         <div class="product_list">
-          <h1>our_product</h1>
+          <h1>Our Product</h1>
         </div>
         <div class="flex_container">
             <div class="products_info">
@@ -226,33 +226,40 @@
 
     <section id="contact_us">
       <h1>CONTACT</h1>
-      <form>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" /><br />
-        <label for="comment">Comment</label>
-        <textarea
-          type="text"
-          id="comment"
-          name="comment"
-          rows="5"
-          cols="50"
-          placeholder="Please Enter any Comment you have with the company"
-        ></textarea>
-        <br />
-        <input type="submit" id="submit" value="Submit" />
-      </form>
+    
+      <div class="form-container">
+        <form>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" /><br />
+    
+          <label for="comment">Comment</label>
+          <textarea
+            id="comment"
+            name="comment"
+            rows="10"
+            cols="100"
+            placeholder="Please Enter any Comment you have with the company"
+          ></textarea><br />
+    
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </div>
     </section>
+    
 
     <footer>
       <div class="footer">
-        <p>Pretium nibh ipsum consequat nisl vel pretium</p>
-        <p>Amet tellus cras adipiscing enim eu turpis</p>
-        <p>©Copyright 2015 - 2020</p>
-        <img src="assets/icons8-youtube-96.png" alt="youtube_icon" />
-        <img src="assets/icons8-facebook-96 (1).png" alt="facebook_icon" />
-        <img src="assets/icons8-pottery-96 (1).png" alt="white_logo"/>
-        <img src="assets/icons8-twitter-96.png" alt="twitter_logo" />
-        <img src="assets/icons8-instagram-96.png" alt="instagram_logo" />
+        <div class="footer-icons">
+          <img src="assets/icons8-youtube-96.png" alt="youtube_icon" />
+          <img src="assets/icons8-facebook-96 (1).png" alt="facebook_icon" />
+          <img src="assets/icons8-pottery-96 (1).png" alt="white_logo" />
+          <img src="assets/icons8-twitter-96.png" alt="twitter_logo" />
+          <img src="assets/icons8-instagram-96.png" alt="instagram_logo" />
+        </div>
+    
+        <div class="footer-text">
+          <p>Pretium nibh ipsum consequat nisl vel pretium Amet tellus cras adipiscing enim eu turpis ©Copyright 2015 - 2020</p>
+        </div>
       </div>
     </footer>
   </body>
