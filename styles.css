@@ -144,15 +144,33 @@ h1 {
 
 .about-container{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+  
+}
+.text-image{
+  display: flex;
   align-items: flex-start;
+  gap: 20px;
 }
-img {
-  width: 100%;
+.text-image.reversed{
+  flex-direction: row-reverse;
+}
+
+.text-image img{
+  width: 500px;
   height: auto;
-  max-height: 500px;
+  border: 2px solid black;
 }
+p{
+  margin-block-start: 4em;
+  margin-block-end: 4em;
+
+}
+
+
+
+
 
 
 /* products css */
